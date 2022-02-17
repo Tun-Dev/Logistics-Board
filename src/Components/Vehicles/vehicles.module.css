@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "InterReg";
+    src: url("../../assets/fonts//Inter-Regular.otf");
+  }
+
+@font-face {
+font-family: "InterExtLight";
+src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
+}
+@font-face {
+    font-family: "InterBold";
+    src: url("../../assets/fonts//Inter-SemiBold.otf");
+}
+
+/* body{
+    background-color: #F0F3F5;
+} */
+.main{
+    background-color: #F0F3F5;
+}
+
+.maininner{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.top{
+    display: flex;
+    justify-content: right;
+    /* border: 1px solid red; */
+    margin-top: 70px;
+}
+
+.bell{
+    width: 60px;
+    height: 60px;
+    background-color: #1C16160B;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innertop{
+    width: 150px;
+    /* border: 2px solid red; */
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.innertop span{
+    height: 47px;
+    width: 1px;
+    background-color: #C3CDD6;
+}
+
+.userpic img{
+    width: 60px;
+}
+
+.midwords h2{
+    font-family: InterBold;
+    font-size: 30px;
+}
+
+.midwords p{
+    font-family: InterReg;
+    margin-top: 10px;
+    color: #01133C93;
+}

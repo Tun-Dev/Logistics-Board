@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "InterReg";
+    src: url("../../assets/fonts//Inter-Regular.otf");
+  }
+
+@font-face {
+font-family: "InterExtLight";
+src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
+}
+
+/* body{
+    display: flex;
+    border: 1px solid red;
+    justify-content: center;
+} */
+
+.container{
+    width: 100;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+}
+
+.sidebar{
+    width: 270px;
+    /* border: 1px solid red; */
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+.right{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 99.9vh;
+    background-color: #F0F3F5;
+}
+
+.dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #386CE2;
+}
+
+.logo{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid blue; */
+    align-items: baseline;
+}
+
+.conMain{
+    margin-top: 40px;
+}
+
+.conMain h4{
+    color: #7A8395;
+    font-family: InterReg;
+}
+.conInternal{
+     margin-top: 40px;
+}
+
+.conInternal h4{
+     color: #7A8395;
+     font-family: InterReg;
+}
+
+.conMain button, .conInternal button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-family: InterExtLight;
+    color: #011B57BF;
+    font-weight: none;
+    background: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.clickable:hover{
+    background-color: #386CE2;
+    transition: background-color 1.0s ease-in;
+    color: white;
+    border-radius: 30px;
+}
+
+.clickable:hover h4{
+    color: white;
+}
+
+.clickable:focus{
+    background-color: #386CE2;
+    color: white;
+    border-radius: 30px;
+}
+
+.clickable:focus h4{
+    color: white;
+}
+
+button div{
+    margin-left: 25px;
+}
+
+button h4{
+    margin-left: 15px;
+    font-size: 14px;
+}

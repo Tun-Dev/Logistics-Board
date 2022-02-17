@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "InterReg";
+    src: url("../../assets/fonts//Inter-Regular.otf");
+  }
+
+@font-face {
+font-family: "InterExtLight";
+src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
+}
+@font-face {
+    font-family: "InterBold";
+    src: url("../../assets/fonts//Inter-SemiBold.otf");
+}
+
+.chart{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    height: 300px;
+}
+
+.words{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+}
+
+.words p{
+    font-family: InterBold;
+    color: #01133C89;
+}
+
+.words h1{
+    font-family: InterBold;
+}

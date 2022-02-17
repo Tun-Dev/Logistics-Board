@@ -1,0 +1,157 @@
+    
+    
+@font-face {
+    font-family: "InterReg";
+    src: url("../../assets/fonts//Inter-Regular.otf");
+  }
+
+@font-face {
+font-family: "InterExtLight";
+src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
+}
+@font-face {
+    font-family: "InterBold";
+    src: url("../../assets/fonts//Inter-SemiBold.otf");
+}
+
+/* body{
+    background-color: #F0F3F5;
+} */
+.main{
+    background-color: #F0F3F5;
+}
+
+.maininner{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.top{
+    display: flex;
+    justify-content: right;
+    /* border: 1px solid red; */
+    margin-top: 60px;
+}
+
+.bell{
+    width: 60px;
+    height: 60px;
+    background-color: #1C16160B;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innertop{
+    width: 150px;
+    /* border: 2px solid red; */
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.innertop span{
+    height: 47px;
+    width: 1px;
+    background-color: #C3CDD6;
+}
+
+.userpic img{
+    width: 60px;
+}
+
+.mods{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.midwords h2{
+    font-family: InterBold;
+    font-size: 30px;
+}
+
+.midwords p{
+    font-family: InterReg;
+    margin-top: 10px;
+    color: #01133C93;
+}
+
+.shipdiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.shipleft{
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.shipleft h1{
+    font-family: InterBold;
+    font-size: 20px;
+}
+
+.shipleft p{
+    color: #01133C93;
+    font-family: InterReg;
+    font-size: 14px;
+}
+
+.shipright{
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: right;
+}
+
+.days{
+    width: 50%;
+    height: 50px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.days button{
+    width: 45px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    font-size: 14px;
+}
+
+.clickable:hover{
+    background-color: #386CE2;
+    color: white;
+    border-radius: 5px;
+}
+
+.clickable:focus{
+    background-color: #386CE2;
+    color: white;
+    border-radius: 5px;
+}
+
+.charts{
+    margin-top: 20px;
+    position: relative;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 7px;
+    /* border: 1px solid red; */
+}
