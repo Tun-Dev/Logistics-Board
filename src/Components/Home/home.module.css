@@ -17,8 +17,15 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
 /* body{
     background-color: #F0F3F5;
 } */
+
+.homemain{
+    display: flex;
+    flex-direction: row;
+}
 .main{
     background-color: #F0F3F5;
+    width: 90%;
+    height: 99.9vh;
 }
 
 .maininner{

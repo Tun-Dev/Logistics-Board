@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "InterReg";
+    src: url("../../assets/fonts//Inter-Regular.otf");
+  }
+
+@font-face {
+font-family: "InterExtLight";
+src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
+}
+@font-face {
+    font-family: "InterBold";
+    src: url("../../assets/fonts//Inter-SemiBold.otf");
+}
+
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    /* border: 1px solid red; */
+    /* justify-content: space-between; */
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+.truck{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid blue; */
+    align-items: center;
+    width: 20%;
+    justify-content: center;
+}
+
+.truck div{
+    margin-left: 10px;
+}
+
+.truck h1, .words h1, .transit h1, .user h1{
+    font-family: interReg;
+    font-size: 14px;
+}
+
+.truck p, .words p, .transit p, .user p{
+    font-family: interReg;
+    font-size: 12px;
+    color: #7A8395;
+    margin-top: 5px;
+}
+
+.words{
+    width: 16%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+.words h1, .words p{
+    margin-left: 29%;
+}
+
+.user, .transit{
+    width: 16%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.user img{
+    width: 50px;
+}
+
+.user div{
+    margin-left: 10px;
+}
+
+.transitin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trackset{
+    font-size: 14px;
+    font-family: InterReg;
+    color: #3C3D41;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #3C3D41;
+}
+
+.trackset1{
+    font-size: 14px;
+    font-family: InterReg;
+    color: #3C3D41;
+    margin-top: 7px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    border-bottom: 1px solid #3C3D41;
+}
+
+
+.transinner{
+    border: 1px solid #C9D1DA;
+    width: 124px;
+    height: 33px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.transinner h1{
+    font-size: 14px;
+}
+
+.transinner div{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.menu{
+    /* border: 1px solid red; */
+    margin-left: 15px;
+}
+
+.tracker{
+    background-color: white;
+    border: none;
+    margin-top: 10px;
+}

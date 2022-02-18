@@ -53,6 +53,7 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     flex-direction: row;
     /* border: 1px solid blue; */
     align-items: baseline;
+    font-family: InterBold;
 }
 
 .conMain{
@@ -89,7 +90,7 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
 
 .clickable:hover{
     background-color: #386CE2;
-    transition: background-color 1.0s ease-in;
+    transition: background-color 0.5s ease-in;
     color: white;
     border-radius: 30px;
 }
@@ -115,4 +116,8 @@ button div{
 button h4{
     margin-left: 15px;
     font-size: 14px;
+}
+
+.links{
+    text-decoration: none;
 }

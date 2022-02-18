@@ -15,8 +15,15 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
 /* body{
     background-color: #F0F3F5;
 } */
+
+.vehmain{
+    display: flex;
+    flex-direction: row;
+}
 .main{
     background-color: #F0F3F5;
+    width: 90%;
+    height: 99.9vh;
 }
 
 .maininner{
@@ -28,7 +35,7 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     display: flex;
     justify-content: right;
     /* border: 1px solid red; */
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .bell{
@@ -70,4 +77,66 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     font-family: InterReg;
     margin-top: 10px;
     color: #01133C93;
+}
+
+.bottom{
+    margin-top: 40px;
+    /* border: 1px solid black; */
+    background-color: #F6F8FB;
+    border-radius: 8px;
+}
+
+.bottomtop{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    height: 72px;
+    width: 96%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    margin-bottom: 20px;
+}
+
+.btleft{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.btleft div{
+    height: 72px;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: InterReg;
+    font-size: 11px;
+    color: #9BA3A0;
+}
+
+.clickable{
+    border-bottom: 3px solid #386CE2;
+}
+
+.clickable h4{
+    color: #386CE2;
+}
+
+.btright{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    /* border: 1px solid yellow; */
+    width: 50%;
+}
+
+.search{
+    width: 20px;
+}
+
+.bottombottom{
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    /* border: 1px solid red; */
 }
