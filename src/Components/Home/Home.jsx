@@ -22,7 +22,7 @@ const countsMotion = {
   },
   visible: {
     x: 0,
-    transition: { delay: 0.5, duration: 2.0, ease: "easeInOut" },
+    transition: { delay: 0, duration: 1.5, ease: "easeInOut" },
   },
   hover: {
     scale: 1.1,
@@ -35,7 +35,7 @@ const chartsMotion = {
   },
   visible: {
     y: 0,
-    transition: { delay: 0, duration: 2.0, ease: "easeInOut" },
+    transition: { delay: 0, duration: 1.5, ease: "easeInOut" },
   },
 };
 
@@ -45,7 +45,7 @@ const wordsMotion = {
   },
   visible: {
     opacity: 1,
-    transition: { delay: 0.5, duration: 2.0, ease: "easeInOut" },
+    transition: { delay: 0, duration: 1.5, ease: "easeInOut" },
   },
 };
 
@@ -61,7 +61,7 @@ const Home = () => {
         <div>
           <Sidebar />
         </div>
-        <div className={styles.main}>
+        <div className={styles.main} id="vehhomemain">
           <div className={styles.maininner}>
             <div className={styles.top}>
               <motion.div
@@ -70,7 +70,7 @@ const Home = () => {
                 initial="hidden"
                 animate="visible"
               >
-                <div className={styles.bell}>
+                <div className={styles.bell} id="vehhomebell">
                   <FontAwesomeIcon icon={faBell} size="2x" />
                 </div>
                 <span></span>
@@ -85,6 +85,7 @@ const Home = () => {
                 variants={wordsMotion}
                 initial="hidden"
                 animate="visible"
+                id="midwords"
               >
                 <h2>Good Evening, Zeus</h2>
                 <p>
@@ -120,21 +121,21 @@ const Home = () => {
                 />
               </motion.div>
             </div>
-            <div>
+            <div className={styles.bottom}>
               <motion.div
                 className={styles.shipdiv}
                 variants={wordsMotion}
                 initial="hidden"
                 animate="visible"
               >
-                <div className={styles.shipleft}>
+                <div className={styles.shipleft} id="midwords">
                   <h1>Shipments</h1>
                   <p>
                     Shipping is going pretty well today, Here's what we have
                   </p>
                 </div>
                 <div className={styles.shipright}>
-                  <div className={styles.days}>
+                  <div className={styles.days} id="days">
                     <button>1D</button>
                     <button>5D</button>
                     <motion.button
@@ -162,6 +163,7 @@ const Home = () => {
                 initial="hidden"
                 animate="visible"
                 className={styles.charts}
+                id="charts"
               >
                 {chart === 0 ? <Charts /> : <Charts2 />}
               </motion.div>

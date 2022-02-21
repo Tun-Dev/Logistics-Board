@@ -8,6 +8,15 @@ import Vehicles from "./Components/Vehicles/Vehicles";
 import { useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import { useLocation } from "react-router-dom";
+import Navbar from "./Components/Sidebar/Navbar";
+import styled, { ThemeProvider } from "styled-components";
+import useDarkMode from "./Components/styles/useDarkMode";
+import Toggle from "./Components/Toggle";
+import {
+  GlobalStyles,
+  lightTheme,
+  darkTheme,
+} from "./Components/styles/GlobalStyles";
 
 const App = () => {
   // const [view, setView] = React.useState(0);
@@ -39,13 +48,20 @@ const App = () => {
   }
 
   const location = useLocation();
+  const [theme, toggleTheme] = useDarkMode();
+
+  const themeMode = theme === "light" ? lightTheme : darkTheme;
 
   return (
     <AnimatePresence>
-      <Routes location={location} key={location.key}>
-        <Route path="/" element={<Home />} />
-        <Route path="/vehicles" element={<Vehicles />} />
-      </Routes>
+      <ThemeProvider theme={themeMode}>
+        <GlobalStyles />
+        <Toggle theme={theme} toggleTheme={toggleTheme} />
+        <Routes location={location} key={location.key}>
+          <Route path="/" element={<Home />} />
+          <Route path="/vehicles" element={<Vehicles />} />
+        </Routes>
+      </ThemeProvider>
     </AnimatePresence>
   );
 };

@@ -16,17 +16,17 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     background-color: #F0F3F5;
 } */
 
-.vehmain{
+.vehiclemain{
     display: flex;
     flex-direction: row;
 }
-.main{
-    background-color: #F0F3F5;
+.vehmain{
+    /* background-color: #F0F3F5; */
     width: 90%;
-    height: 99.9vh;
+    height: 100vh;
 }
 
-.maininner{
+.vehmaininner{
     width: 90%;
     margin: 0 auto;
 }
@@ -49,12 +49,12 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
 }
 
 .innertop{
-    width: 150px;
+    width: 160px;
     /* border: 2px solid red; */
     height: 60px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -62,6 +62,7 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     height: 47px;
     width: 1px;
     background-color: #C3CDD6;
+    margin-right: 13px;
 }
 
 .userpic img{
@@ -116,7 +117,7 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
 }
 
 .clickable{
-    border-bottom: 3px solid #386CE2;
+    border-bottom: 2px solid #386CE2;
 }
 
 .clickable h4{
@@ -139,4 +140,39 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     margin-bottom: 50px;
     padding-bottom: 15px;
     /* border: 1px solid red; */
+}
+
+@media only screen and (max-width: 800px){
+    .vehiclemain{
+        display: flex;
+        flex-direction: column;
+    }
+    .vehmain{
+        width: 100%;
+        height: 100%;
+    }
+    .btleft{
+        display: flex;
+        flex-direction: row;
+        width: 91%;
+    }
+    
+    .btleft div{
+        height: 72px;
+        /* border: 1px solid blue; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-family: InterReg;
+        font-size: 9px;
+        color: #9BA3A0;
+    }
+    .btright{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid yellow; */
+        width: 9%;
+    }
 }

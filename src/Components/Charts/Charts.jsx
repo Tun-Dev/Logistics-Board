@@ -124,7 +124,7 @@ const Charts = () => {
       animate="visible"
       className={styles.chart}
     >
-      <div className={styles.words}>
+      <div className={styles.words} id="midwords">
         <div>
           <p>SHIPMENTS</p>
           <h1>60,000</h1>

@@ -172,3 +172,47 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     justify-content: center;
     align-items: center;
 }
+
+@media only screen and (max-width: 800px){
+    .innercont{
+        background: #fff;
+        border-radius: 12px;
+        min-height: 50px;
+        max-width: 90%;
+        margin: auto;
+        width: 100%;
+        padding: 1rem 0;
+        box-shadow: 0px 4px 12px rgb(82 82 82 / 50%);
+    }
+    .middle{
+        display: flex;
+        flex-direction: column-reverse;
+        /* border: 1px solid red; */
+        align-items: center;
+    }
+    .midleft{
+        width: 100%;
+        margin-top: 30px;
+        /* border: 1px solid red; */
+    }
+
+    .bottom{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .truckk{
+        font-size: 20px;
+        display: none;
+    }
+    .truck h1, .words h1, .transit h1{
+        font-family: interReg;
+        font-size: 12px;
+    }
+    
+    .truck p, .words p, .transit p, .user p{
+        font-family: interReg;
+        font-size: 10px;
+        color: #7A8395;
+        margin-top: 5px;
+    }
+}

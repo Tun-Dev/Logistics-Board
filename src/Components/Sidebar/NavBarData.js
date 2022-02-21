@@ -1,0 +1,92 @@
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHome,
+  faTruck,
+  faUserFriends,
+  faUser,
+  faShip,
+  faFileInvoice,
+  faCreditCard,
+  faReceipt,
+  faGear,
+  faLineChart,
+  faBarChart,
+  faAreaChart,
+  faLifeRing,
+  faChartLine,
+  faBars,
+} from "@fortawesome/free-solid-svg-icons";
+
+export const NavBarData = [
+  {
+    id: 1,
+    title: "Home",
+    path: "/",
+    icon: <FontAwesomeIcon icon={faHome} />,
+    cName: "nav-text",
+  },
+  {
+    id: 2,
+    title: "Vehicles",
+    path: "/vehicles",
+    icon: <FontAwesomeIcon icon={faTruck} flip="horizontal" />,
+    cName: "nav-text",
+  },
+  {
+    id: 3,
+    title: "Transporter",
+    path: "",
+    icon: <FontAwesomeIcon icon={faUserFriends} />,
+    cName: "nav-text2",
+  },
+  {
+    id: 4,
+    title: "Customer",
+    path: "",
+    icon: <FontAwesomeIcon icon={faUser} />,
+    cName: "nav-text2",
+  },
+  {
+    id: 5,
+    title: "Shipments",
+    path: "",
+    icon: <FontAwesomeIcon icon={faShip} />,
+    cName: "nav-text2",
+  },
+  {
+    id: 6,
+    title: "Support Tickets",
+    path: "",
+    icon: <FontAwesomeIcon icon={faLifeRing} />,
+    cName: "nav-text2",
+  },
+  {
+    id: 7,
+    title: "Invoices",
+    path: "",
+    icon: <FontAwesomeIcon icon={faReceipt} />,
+    cName: "nav-text2",
+  },
+  {
+    id: 8,
+    title: "Analytics",
+    path: "",
+    icon: <FontAwesomeIcon icon={faBarChart} />,
+    cName: "nav-text2",
+  },
+  {
+    id: 9,
+    title: "Payments",
+    path: "",
+    icon: <FontAwesomeIcon icon={faCreditCard} />,
+    cName: "nav-text2",
+  },
+  {
+    id: 10,
+    title: "Settings",
+    path: "",
+    icon: <FontAwesomeIcon icon={faGear} />,
+    cName: "nav-text2",
+  },
+];

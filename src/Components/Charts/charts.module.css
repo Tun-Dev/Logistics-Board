@@ -37,3 +37,14 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
 .words h1{
     font-family: InterBold;
 }
+
+@media only screen and (max-width: 800px){
+    .chart{
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 95%;
+        height: 300px;
+    }
+}

@@ -17,6 +17,7 @@ const Midmodals = ({ register, count, join, color }) => {
         className={styles.container}
         variants={midVariants}
         whileHover="hover"
+        id="midmodcon"
       >
         <div className={styles.left}>
           <div className={styles.leftinner}>

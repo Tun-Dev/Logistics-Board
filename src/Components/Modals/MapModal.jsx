@@ -12,7 +12,7 @@ const motionVariant = {
   },
   visible: {
     opacity: 1,
-    transition: { delay: 0.2, duration: 2 },
+    transition: { delay: 0.2, duration: 1.5 },
   },
   exit: {
     transition: "none",
@@ -32,8 +32,9 @@ const MapModal = ({ show, closeMaps, closeModal }) => {
         initial="hidden"
         animate="visible"
         exit="exit"
+        id="trackcont"
       >
-        <div className={styles.clsbtn}>
+        <div className={styles.clsbtn} id="clsbtn">
           <button
             onClick={() => {
               closeMaps();
@@ -43,14 +44,14 @@ const MapModal = ({ show, closeMaps, closeModal }) => {
             <FontAwesomeIcon icon={faX} />
           </button>
         </div>
-        <div className={styles.top}>
+        <div className={styles.top} id="midwords">
           <h1>Location Found</h1>
           <p>Vehicles has been successfully located</p>
         </div>
         <div className={styles.middle}>
           <div className={styles.midleft}>
             <div className={styles.lefttop}>
-              <div className={styles.ltdiv}>
+              <div className={styles.ltdiv} id="midwords">
                 <img src={img} alt="" />
                 <div>
                   <h1>Johnson C</h1>
@@ -62,12 +63,12 @@ const MapModal = ({ show, closeMaps, closeModal }) => {
               </div>
             </div>
             <span></span>
-            <div className={styles.leftmid}>
+            <div className={styles.leftmid} id="midwords">
               <h1>Maryland, Lagos NG</h1>
               <p>Current location</p>
             </div>
             <span></span>
-            <div className={styles.leftbot}>
+            <div className={styles.leftbot} id="midwords">
               <h1>36 Mins</h1>
               <p>Time spent so far</p>
             </div>
@@ -78,7 +79,12 @@ const MapModal = ({ show, closeMaps, closeModal }) => {
         </div>
         <div className={styles.bottom}>
           <div className={styles.truck}>
-            <FontAwesomeIcon icon={faTruck} flip="horizontal" size="3x" />
+            <FontAwesomeIcon
+              icon={faTruck}
+              id="truck"
+              flip="horizontal"
+              size="3x"
+            />
             <div>
               <h1>ET-272-KJA</h1>
               <p>Toyota Highlander 2004</p>

@@ -75,6 +75,7 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
 
 .user img{
     width: 50px;
+    border-radius: 50px;
 }
 
 .user div{
@@ -137,4 +138,27 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     background-color: white;
     border: none;
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 800px){
+    .words{
+        display: none;
+    }
+    .truck{
+        display: none;
+    }
+    .user, .transit{
+        /* border: 1px solid blue; */
+        width: 50%;
+    }
+    .truck h1, .transit h1, .user h1{
+        font-size: 14px;
+    }
+    .truck p, .words p, .transit p, .user p{
+        font-size: 12px;
+    }
+    .user img{
+        width: 50px;
+    }
+    
 }

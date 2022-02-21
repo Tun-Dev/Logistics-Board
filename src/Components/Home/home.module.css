@@ -24,8 +24,8 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
 }
 .main{
     background-color: #F0F3F5;
-    width: 90%;
-    height: 99.9vh;
+    width: 91%;
+    height: 100vh;
 }
 
 .maininner{
@@ -51,7 +51,7 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
 }
 
 .innertop{
-    width: 150px;
+    width: 160px;
     /* border: 2px solid red; */
     height: 60px;
     display: flex;
@@ -64,6 +64,7 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     height: 47px;
     width: 1px;
     background-color: #C3CDD6;
+    margin-right: 13px;
 }
 
 .userpic img{
@@ -136,7 +137,8 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     height: 45px;
     border: none;
     cursor: pointer;
-    background-color: white;
+    background-color: none;
+    background: none;
     font-size: 14px;
 }
 
@@ -154,11 +156,81 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
 
 .charts{
     margin-top: 20px;
-    position: relative;
+    /* position: relative; */
     height: 400px;
     background-color: white;
     display: flex;
     justify-content: center;
     border-radius: 7px;
     /* border: 1px solid red; */
+}
+
+@media only screen and (max-width: 800px){
+    .homemain{
+        display: flex;
+        flex-direction: column;
+    }
+    .main{
+        width: 100%;
+        height: 100%;
+    }
+    .mods{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* border: 1px solid red; */
+        align-items: center;
+    }
+    .top{
+        /* display: flex;
+        justify-content: right; */
+        /* border: 1px solid red; */
+        margin-top: 40px;
+    }
+    .midwords{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .midwords h2{
+        font-family: InterBold;
+        font-size: 25px;
+    }
+    
+    .midwords p{
+        font-family: InterReg;
+        margin-top: 10px;
+        color: #01133C93;
+    }
+    .shipdiv{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+    }
+    .shipleft{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .shipleft p{
+        margin-top: 10px;
+    }
+    .shipright{
+        width: 90%;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+        margin-top: 20px;
+    }
+    .days{
+        width: 100%;
+    }
+    .bottom{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .charts{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+        /* border: 1px solid red; */
+    }
 }

@@ -13,7 +13,7 @@ const motionVariant = {
   },
   visible: {
     opacity: 1,
-    transition: { duration: 2 },
+    transition: { duration: 1.5 },
   },
 };
 
@@ -36,18 +36,19 @@ const TrackModal = ({ show, closeModal }) => {
             variants={motionVariant}
             initial="hidden"
             animate="visible"
+            id="trackcont"
           >
             {/* <div className={styles.clsbtn}>
               <button onClick={() => closeModal()}>
                 <FontAwesomeIcon icon={faX} />
               </button>
             </div> */}
-            <div className={styles.top}>
+            <div className={styles.top} id="midwords">
               <h1>Tracking Vehicle</h1>
               <p>Please hold on. Locating Vehicles in IPI Network</p>
             </div>
             <div className={styles.middle}>
-              <div className={styles.midleft}>
+              <div className={styles.midleft} id="midwords">
                 <img src={img} alt="" />
                 <div>
                   <h1>Johnson C</h1>
@@ -58,7 +59,11 @@ const TrackModal = ({ show, closeModal }) => {
                 <div className={styles.circle1}>
                   <div className={styles.circle2}>
                     <div className={styles.circle3}>
-                      <FontAwesomeIcon icon={faSearch} size="2x" />
+                      <FontAwesomeIcon
+                        icon={faSearch}
+                        id="midwords"
+                        size="2x"
+                      />
                     </div>
                   </div>
                 </div>
@@ -66,7 +71,13 @@ const TrackModal = ({ show, closeModal }) => {
             </div>
             <div className={styles.bottom}>
               <div className={styles.truck}>
-                <FontAwesomeIcon icon={faTruck} flip="horizontal" size="3x" />
+                <FontAwesomeIcon
+                  icon={faTruck}
+                  flip="horizontal"
+                  size="3x"
+                  className={styles.truckk}
+                  id="truck"
+                />
                 <div>
                   <h1>ET-272-KJA</h1>
                   <p>Toyota Highlander 2004</p>

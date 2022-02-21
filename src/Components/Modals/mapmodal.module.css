@@ -188,3 +188,74 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
 .views h1{
     font-size: 12px;
 }
+
+@media only screen and (max-width: 800px){
+    .innercont{
+        background: #fff;
+        border-radius: 12px;
+        min-height: 50px;
+        max-width: 90%;
+        margin: auto;
+        width: 100%;
+        padding: 1rem 0;
+        box-shadow: 0px 4px 12px rgb(82 82 82 / 50%);
+    }
+
+    .bottom{
+        display: none;
+    }
+
+    .top{
+        text-align: center;
+        margin-bottom: 30px;
+        font-family: InterReg;
+    }
+
+    .middle{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 10px;
+    }
+    .midleft{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+        margin-top: 20px;
+    }
+    .midright{
+        width: 300px;
+        margin: 0 auto;
+        /* border: 1px solid green; */
+    }
+    .views{
+        display: none;
+    }
+    .midleft span{
+        height: 30px;
+        width: 0px;
+        border: 1px solid #07060617;
+        margin-top: 0;
+        margin-right: 10px;
+    }
+    .midleft h1{
+        font-size: 11px;
+    }
+    
+    .midleft p{
+        margin-top: 3px;
+        font-size: 10px;
+    }
+    
+    .midleft img{
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    .leftmid, .leftbot{
+        margin-top: 0px;
+    }
+}
