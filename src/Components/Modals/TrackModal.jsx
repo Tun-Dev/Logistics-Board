@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import styles from "./trackmodal.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch, faX, faTruck } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faTruck } from "@fortawesome/free-solid-svg-icons";
 import img from "../../assets/images/user.png";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import MapModal from "./MapModal";
 import { motion } from "framer-motion";
 
@@ -38,11 +38,6 @@ const TrackModal = ({ show, closeModal }) => {
             animate="visible"
             id="trackcont"
           >
-            {/* <div className={styles.clsbtn}>
-              <button onClick={() => closeModal()}>
-                <FontAwesomeIcon icon={faX} />
-              </button>
-            </div> */}
             <div className={styles.top} id="midwords">
               <h1>Tracking Vehicle</h1>
               <p>Please hold on. Locating Vehicles in IPI Network</p>

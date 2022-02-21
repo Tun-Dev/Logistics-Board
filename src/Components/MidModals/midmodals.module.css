@@ -2,14 +2,13 @@
     font-family: "InterReg";
     src: url("../../assets/fonts//Inter-Regular.otf");
     font-display: swap;
-}
+  }
 
 @font-face {
-    font-family: "InterExtLight";
-    src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
-    font-display: swap;
+font-family: "InterExtLight";
+src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
+font-display: swap;
 }
-
 @font-face {
     font-family: "InterBold";
     src: url("../../assets/fonts//Inter-SemiBold.otf");
@@ -17,7 +16,7 @@
 }
 
 
-.container {
+.container{
     width: 30%;
     height: 180px;
     background-color: white;
@@ -26,40 +25,40 @@
     border-radius: 5px;
 }
 
-.container:hover {
+.container:hover{
     color: white;
     background-color: #386CE2;
     transition: background-color 0.5s ease-in;
 }
 
-.left {
+.left{
     width: 70%;
     /* border: 1px solid red; */
 
 }
 
-.leftinner {
+.leftinner{
     margin-top: 34px;
     margin-left: 50px;
 }
 
-.left p {
+.left p{
     margin-top: 12px;
     font-family: InterExtLight;
 }
 
-.left h4 {
+.left h4{
     margin-top: 12px;
     font-family: InterReg;
 }
 
-.left h1 {
+.left h1{
     margin-top: 12px;
     font-size: 30px;
     font-family: InterBold;
 }
 
-.right {
+.right{
     /* border: 1px solid green; */
     width: 30%;
     display: flex;
@@ -67,7 +66,7 @@
     justify-content: right;
 }
 
-.rightinner {
+.rightinner{
     height: 90px;
     /* border: 1px solid blue; */
     width: 70%;
@@ -79,8 +78,8 @@
     color: white;
 }
 
-@media only screen and (max-width: 800px) {
-    .container {
+@media only screen and (max-width: 800px){
+    .container{
         width: 90%;
     }
 }

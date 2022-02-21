@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./mapmodal.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch, faX, faTruck } from "@fortawesome/free-solid-svg-icons";
+import { faX, faTruck } from "@fortawesome/free-solid-svg-icons";
 import img from "../../assets/images/user.png";
 import Maps from "./Maps/Maps";
 import { motion } from "framer-motion";

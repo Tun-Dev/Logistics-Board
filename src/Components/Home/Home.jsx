@@ -2,11 +2,7 @@ import React from "react";
 import styles from "./home.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell } from "@fortawesome/free-regular-svg-icons";
-import {
-  faUser,
-  faUserFriends,
-  faShip,
-} from "@fortawesome/free-solid-svg-icons";
+import { faUserFriends, faShip } from "@fortawesome/free-solid-svg-icons";
 import img from "../../assets/images/user.png";
 import Midmodals from "../MidModals/Midmodals";
 import Midmodals2 from "../MidModals/Midmodals2";
@@ -15,9 +11,7 @@ import Charts2 from "../Charts/Charts2";
 import { useState } from "react";
 import Sidebar from "../Sidebar/Sidebar";
 import { motion } from "framer-motion";
-import { useIsSmall } from "../styles/Utils/Hooks";
 import { useMediaQuery } from "react-responsive";
-import { faWindows } from "@fortawesome/free-brands-svg-icons";
 
 const chartsMotion = {
   hidden: {
@@ -89,7 +83,7 @@ const Home = () => {
         },
       };
 
-  const [chart, setChart] = React.useState(0);
+  const [chart, setChart] = useState(0);
 
   const chart1 = () => setChart(0);
   const chart2 = () => setChart(1);

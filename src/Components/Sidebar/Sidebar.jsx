@@ -75,7 +75,7 @@ const Sidebar = ({ home, vehicles }) => {
                 whileHover="hover"
                 className={styles.clickable}
                 onClick={vehicles}
-                id="sidebaricon2"
+                id="sidebaricon3"
               >
                 <div>
                   <FontAwesomeIcon icon={faTruck} flip="horizontal" size="2x" />

@@ -1,6 +1,5 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser } from "@fortawesome/free-solid-svg-icons";
 import styles from "./midmodals2.module.css";
 
 const Midmodals2 = ({ register, count, join, color, img }) => {

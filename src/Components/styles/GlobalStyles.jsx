@@ -22,6 +22,9 @@ export const GlobalStyles = createGlobalStyle`
     #sidebaricon2{
         color: ${({ theme }) => theme.sidebaricon2};
     }
+    #sidebaricon3{
+        color: ${({ theme }) => theme.sidebaricon2};
+    }
     #sidebarbtn div{
         color: ${({ theme }) => theme.sidebarbtn};
         transition: all 1s ease-in

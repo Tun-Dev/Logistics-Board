@@ -5,20 +5,13 @@ import { faTruck } from "@fortawesome/free-solid-svg-icons";
 import { faEllipsisVertical } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import TrackModal from "../Modals/TrackModal";
-import MapModal from "../Modals/MapModal";
-import { Button } from "react-bootstrap";
-import { Modal } from "react-bootstrap";
 
 const Vehcomp = ({ name, color, action, tracking, tracking2, img }) => {
   const [first, setFirst] = useState(false);
-
-  // const handleShow = () => setFirst(true);
-  // const handleClose = () => setFirst(false);
   return (
     <>
       <div className={styles.main} id="vehcompmain">
         <TrackModal show={first} closeModal={() => setFirst(false)} />
-        {/* {first && <MapModal closeModal={setFirst} />} */}
         <div className={styles.truck}>
           <FontAwesomeIcon
             icon={faTruck}

@@ -21,7 +21,9 @@ const Midmodals = ({ register, count, join, color }) => {
       >
         <div className={styles.left}>
           <div className={styles.leftinner}>
-            <h4>{register}</h4>
+            <section>
+              <h4>{register}</h4>
+            </section>
             <h1>{count}</h1>
             <p>{join}</p>
           </div>
