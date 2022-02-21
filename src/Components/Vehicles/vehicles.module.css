@@ -1,15 +1,19 @@
 @font-face {
     font-family: "InterReg";
     src: url("../../assets/fonts//Inter-Regular.otf");
-  }
+    font-display: swap;
+}
 
 @font-face {
-font-family: "InterExtLight";
-src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
+    font-family: "InterExtLight";
+    src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
+    font-display: swap;
 }
+
 @font-face {
     font-family: "InterBold";
     src: url("../../assets/fonts//Inter-SemiBold.otf");
+    font-display: swap;
 }
 
 /* body{

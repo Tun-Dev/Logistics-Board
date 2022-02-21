@@ -1,18 +1,22 @@
 @font-face {
     font-family: "InterReg";
     src: url("../../assets/fonts//Inter-Regular.otf");
-  }
+    font-display: swap;
+}
 
 @font-face {
-font-family: "InterExtLight";
-src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
+    font-family: "InterExtLight";
+    src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
+    font-display: swap;
 }
+
 @font-face {
     font-family: "InterBold";
     src: url("../../assets/fonts//Inter-SemiBold.otf");
+    font-display: swap;
 }
 
-.maincontainer{
+.maincontainer {
     position: fixed;
     left: 0;
     top: 0;
@@ -25,7 +29,7 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     align-items: center;
 }
 
-.innercont{
+.innercont {
     background: #fff;
     border-radius: 12px;
     min-height: 50px;
@@ -36,14 +40,14 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     box-shadow: 0px 4px 12px rgb(82 82 82 / 50%);
 }
 
-.bottom{
+.bottom {
     display: flex;
     flex-direction: row;
     width: 100%;
     padding-bottom: 30px;
 }
 
-.truck{
+.truck {
     display: flex;
     flex-direction: row;
     /* border: 1px solid blue; */
@@ -52,23 +56,23 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     justify-content: center;
 }
 
-.truck div{
+.truck div {
     margin-left: 10px;
 }
 
-.truck h1, .words h1, .transit h1, .user h1{
+.truck h1, .words h1, .transit h1, .user h1 {
     font-family: interReg;
     font-size: 14px;
 }
 
-.truck p, .words p, .transit p, .user p{
+.truck p, .words p, .transit p, .user p {
     font-family: interReg;
     font-size: 12px;
     color: #7A8395;
     margin-top: 5px;
 }
 
-.words{
+.words {
     width: 23%;
     /* border: 1px solid yellow; */
     display: flex;
@@ -77,11 +81,11 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     justify-content: center;
 }
 
-.words h1, .words p{
+.words h1, .words p {
     margin-left: 29%;
 }
 
-.clsbtn{
+.clsbtn {
     margin-top: 25px;
     display: flex;
     flex-direction: row;
@@ -89,7 +93,7 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     margin-right: 30px;
 }
 
-.clsbtn button{
+.clsbtn button {
     width: 25px;
     height: 25px;
     background: none;
@@ -101,29 +105,29 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     cursor: pointer;
 }
 
-.top{
+.top {
     text-align: center;
     margin-bottom: 50px;
     font-family: InterReg;
     padding-top: 45px;
 }
 
-.top h1{
+.top h1 {
     font-size: 22px;
 }
 
-.top p, .midleft p{
+.top p, .midleft p {
     color: #01133C93;
 }
 
-.middle{
+.middle {
     display: flex;
     flex-direction: row;
     /* justify-content: space-evenly; */
     margin-bottom: 80px;
 }
 
-.midleft{
+.midleft {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -133,17 +137,17 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     /* border: 1px solid red; */
 }
 
-.midleft h1{
+.midleft h1 {
     font-size: 16px;
 }
 
-.midleft img{
+.midleft img {
     width: 50px;
     height: 50px;
     margin-right: 10px;
 }
 
-.circle1{
+.circle1 {
     width: 243px;
     height: 243px;
     border-radius: 300px;
@@ -153,7 +157,7 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     align-items: center;
 }
 
-.circle2{
+.circle2 {
     width: 185px;
     height: 185px;
     border-radius: 200px;
@@ -163,7 +167,7 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     align-items: center;
 }
 
-.circle3{
+.circle3 {
     width: 114px;
     height: 114px;
     border-radius: 200px;
@@ -173,8 +177,8 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     align-items: center;
 }
 
-@media only screen and (max-width: 800px){
-    .innercont{
+@media only screen and (max-width: 800px) {
+    .innercont {
         background: #fff;
         border-radius: 12px;
         min-height: 50px;
@@ -184,32 +188,36 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
         padding: 1rem 0;
         box-shadow: 0px 4px 12px rgb(82 82 82 / 50%);
     }
-    .middle{
+
+    .middle {
         display: flex;
         flex-direction: column-reverse;
         /* border: 1px solid red; */
         align-items: center;
     }
-    .midleft{
+
+    .midleft {
         width: 100%;
         margin-top: 30px;
         /* border: 1px solid red; */
     }
 
-    .bottom{
+    .bottom {
         width: 90%;
         margin: 0 auto;
     }
-    .truckk{
+
+    .truckk {
         font-size: 20px;
         display: none;
     }
-    .truck h1, .words h1, .transit h1{
+
+    .truck h1, .words h1, .transit h1 {
         font-family: interReg;
         font-size: 12px;
     }
-    
-    .truck p, .words p, .transit p, .user p{
+
+    .truck p, .words p, .transit p, .user p {
         font-family: interReg;
         font-size: 10px;
         color: #7A8395;

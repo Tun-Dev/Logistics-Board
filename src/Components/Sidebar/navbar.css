@@ -1,18 +1,22 @@
 @font-face {
     font-family: "InterReg";
     src: url("../../assets/fonts//Inter-Regular.otf");
-  }
+    font-display: swap;
+}
 
 @font-face {
-font-family: "InterExtLight";
-src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
+    font-family: "InterExtLight";
+    src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
+    font-display: swap;
 }
+
 @font-face {
     font-family: "InterBold";
     src: url("../../assets/fonts//Inter-SemiBold.otf");
+    font-display: swap;
 }
 
-.navbar{
+.navbar {
     background-color: #F0F3F5;
     height: 80px;
     display: flex;
@@ -20,7 +24,7 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     align-items: center;
 }
 
-.menu-bars{
+.menu-bars {
     margin-left: 2rem;
     font-size: 2rem;
     background: none;
@@ -28,7 +32,7 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     cursor: pointer;
 }
 
-.nav-menu{
+.nav-menu {
     background-color: white;
     width: 250px;
     /* border: 1px solid red; */
@@ -46,7 +50,7 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     transition: 1s;
 }
 
-.nav-text, .nav-text2{
+.nav-text, .nav-text2 {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -56,7 +60,7 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     font-family: InterReg;
 }
 
-.nav-text a, .nav-text2 a{
+.nav-text a, .nav-text2 a {
     text-decoration: none;
     color: #011B57BF;
     font-size: 15px;
@@ -68,16 +72,16 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     border-radius: 30px;
 }
 
-.nav-text a:hover{
+.nav-text a:hover {
     background-color: #386CE2;
     color: white;
 }
 
-.nav-menu-items{
+.nav-menu-items {
     width: 100%;
 }
 
-.navbar-toggle{
+.navbar-toggle {
     width: 100%;
     height: 80px;
     display: flex;
@@ -85,6 +89,6 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
     align-items: center;
 }
 
-span{
+span {
     margin-left: 16px;
 }
