@@ -15,19 +15,9 @@ import Charts2 from "../Charts/Charts2";
 import { useState } from "react";
 import Sidebar from "../Sidebar/Sidebar";
 import { motion } from "framer-motion";
-
-const countsMotion = {
-  hidden: {
-    x: "90vw",
-  },
-  visible: {
-    x: 0,
-    transition: { delay: 0, duration: 1.5, ease: "easeInOut" },
-  },
-  hover: {
-    scale: 1.1,
-  },
-};
+import { useIsSmall } from "../styles/Utils/Hooks";
+import { useMediaQuery } from "react-responsive";
+import { faWindows } from "@fortawesome/free-brands-svg-icons";
 
 const chartsMotion = {
   hidden: {
@@ -50,6 +40,55 @@ const wordsMotion = {
 };
 
 const Home = () => {
+  const isMobile = useMediaQuery({
+    query: "(max-width: 800px)",
+  });
+
+  const countsMotion = isMobile
+    ? {
+        hidden: {
+          x: "90vw",
+        },
+        visible: {
+          x: 0,
+          transition: { delay: 2.0, duration: 1.5, ease: "easeInOut" },
+        },
+        hover: {
+          scale: 1.1,
+        },
+      }
+    : {
+        hidden: {
+          x: "90vw",
+        },
+        visible: {
+          x: 0,
+          transition: { delay: 0, duration: 1.5, ease: "easeInOut" },
+        },
+        hover: {
+          scale: 1.1,
+        },
+      };
+  const wordsMotion = isMobile
+    ? {
+        hidden: {
+          opacity: 0,
+        },
+        visible: {
+          opacity: 1,
+          transition: { delay: 0, duration: 1.5, ease: "easeInOut" },
+        },
+      }
+    : {
+        hidden: {
+          opacity: 0,
+        },
+        visible: {
+          opacity: 1,
+          transition: { delay: 0, duration: 1.5, ease: "easeInOut" },
+        },
+      };
+
   const [chart, setChart] = React.useState(0);
 
   const chart1 = () => setChart(0);
