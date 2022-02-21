@@ -23,16 +23,6 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import Navbar from "./Navbar";
 
-// const entranceMotion = {
-//   hidden: {
-//     x: "-50vw",
-//   },
-//   visible: {
-//     x: 0,
-//     transition: { delay: 0.4, duration: 1.5 },
-//   },
-// };
-
 const midVariants = {
   hover: {
     scale: 1.1,
