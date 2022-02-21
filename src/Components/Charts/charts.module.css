@@ -47,4 +47,10 @@ src: url("../../assets/fonts//Inter-ExtraLight-BETA.otf");
         width: 95%;
         height: 300px;
     }
+    .words p{
+        font-size: 9px;
+    }
+    .words h1{
+        font-size: 17px;
+    }
 }
