@@ -28,7 +28,7 @@ font-display: swap;
 .main{
     background-color: #F0F3F5;
     width: 91%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .maininner{
@@ -160,6 +160,7 @@ font-display: swap;
 
 .charts{
     margin-top: 20px;
+    margin-bottom: 30px;
     /* position: relative; */
     height: 400px;
     background-color: white;

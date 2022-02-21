@@ -19,7 +19,7 @@ const chartsMotion = {
   },
   visible: {
     y: 0,
-    transition: { delay: 0, duration: 1.5, ease: "easeInOut" },
+    transition: { delay: 0, duration: 1, ease: "easeInOut" },
   },
 };
 
@@ -29,7 +29,7 @@ const wordsMotion = {
   },
   visible: {
     opacity: 1,
-    transition: { delay: 0, duration: 1.5, ease: "easeInOut" },
+    transition: { delay: 0, duration: 1, ease: "easeInOut" },
   },
 };
 
@@ -45,7 +45,7 @@ const Home = () => {
         },
         visible: {
           x: 0,
-          transition: { delay: 2.0, duration: 1.5, ease: "easeInOut" },
+          transition: { delay: 0, duration: 1, ease: "easeInOut" },
         },
         hover: {
           scale: 1.1,
@@ -57,7 +57,7 @@ const Home = () => {
         },
         visible: {
           x: 0,
-          transition: { delay: 0, duration: 1.5, ease: "easeInOut" },
+          transition: { delay: 0, duration: 1, ease: "easeInOut" },
         },
         hover: {
           scale: 1.1,
@@ -70,7 +70,7 @@ const Home = () => {
         },
         visible: {
           opacity: 1,
-          transition: { delay: 0, duration: 1.5, ease: "easeInOut" },
+          transition: { delay: 0, duration: 1, ease: "easeInOut" },
         },
       }
     : {
@@ -79,7 +79,7 @@ const Home = () => {
         },
         visible: {
           opacity: 1,
-          transition: { delay: 0, duration: 1.5, ease: "easeInOut" },
+          transition: { delay: 0, duration: 1, ease: "easeInOut" },
         },
       };
 
@@ -91,7 +91,7 @@ const Home = () => {
   return (
     <>
       <div className={styles.homemain}>
-        <div>
+        <div className={styles.takingsidebar} id="sidebarcontainer">
           <Sidebar />
         </div>
         <div className={styles.main} id="vehhomemain">

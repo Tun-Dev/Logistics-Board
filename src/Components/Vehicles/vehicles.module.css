@@ -27,7 +27,7 @@
 .vehmain{
     /* background-color: #F0F3F5; */
     width: 90%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .vehmaininner{
@@ -142,8 +142,13 @@
 }
 
 .bottombottom{
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     padding-bottom: 15px;
+    /* border: 1px solid red; */
+}
+
+.takingsidebar{
+    background-color: white;
     /* border: 1px solid red; */
 }
 

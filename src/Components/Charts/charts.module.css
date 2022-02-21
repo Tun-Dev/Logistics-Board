@@ -35,10 +35,12 @@
 .words p{
     font-family: InterBold;
     color: #01133C89;
+    margin-left: 30px
 }
 
 .words h1{
     font-family: InterBold;
+    margin-left: 30px;
 }
 
 @media only screen and (max-width: 800px){

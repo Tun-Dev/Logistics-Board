@@ -41,7 +41,7 @@ const Vehicles = () => {
   return (
     <>
       <div className={styles.vehiclemain}>
-        <div>
+        <div className={styles.takingsidebar} id="sidebarcontainer">
           <Sidebar />
         </div>
         <div className={styles.vehmain} id="vehhomemain">
