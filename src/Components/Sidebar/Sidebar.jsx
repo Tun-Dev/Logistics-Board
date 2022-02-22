@@ -54,7 +54,7 @@ const Sidebar = ({ home, vehicles }) => {
                 id="sidebaricon2"
               >
                 <div>
-                  <FontAwesomeIcon icon={faHome} size="2x" />
+                  <FontAwesomeIcon icon={faHome} />
                 </div>
                 <h4>Home</h4>
               </motion.button>
@@ -68,26 +68,26 @@ const Sidebar = ({ home, vehicles }) => {
                 id="sidebaricon3"
               >
                 <div>
-                  <FontAwesomeIcon icon={faTruck} flip="horizontal" size="2x" />
+                  <FontAwesomeIcon icon={faTruck} flip="horizontal" />
                 </div>
                 <h4>Vehicles</h4>
               </motion.button>
             </Link>
             <button>
               <div id="sidebaricon">
-                <FontAwesomeIcon icon={faUserFriends} size="2x" />
+                <FontAwesomeIcon icon={faUserFriends} />
               </div>
               <h4>Transporters</h4>
             </button>
             <button>
               <div id="sidebaricon">
-                <FontAwesomeIcon icon={faUser} size="2x" />
+                <FontAwesomeIcon icon={faUser} />
               </div>
               <h4>Customers</h4>
             </button>
             <button>
               <div id="sidebaricon">
-                <FontAwesomeIcon icon={faShip} size="2x" />
+                <FontAwesomeIcon icon={faShip} />
               </div>
               <h4>Shipments</h4>
             </button>
@@ -96,31 +96,31 @@ const Sidebar = ({ home, vehicles }) => {
             <h4>INTERNAL TOOLS</h4>
             <button>
               <div id="sidebaricon">
-                <FontAwesomeIcon icon={faLifeRing} size="lg" size="2x" />
+                <FontAwesomeIcon icon={faLifeRing} size="lg" />
               </div>
               <h4>Support Tickets</h4>
             </button>
             <button>
               <div id="sidebaricon">
-                <FontAwesomeIcon icon={faReceipt} size="2x" />
+                <FontAwesomeIcon icon={faReceipt} />
               </div>
               <h4>Invoices</h4>
             </button>
             <button>
               <div id="sidebaricon">
-                <FontAwesomeIcon icon={faChartLine} size="2x" />
+                <FontAwesomeIcon icon={faChartLine} />
               </div>
               <h4>Analytics</h4>
             </button>
             <button>
               <div id="sidebaricon">
-                <FontAwesomeIcon icon={faCreditCard} size="2x" />
+                <FontAwesomeIcon icon={faCreditCard} />
               </div>
               <h4>Payments</h4>
             </button>
             <button>
               <div id="sidebaricon">
-                <FontAwesomeIcon icon={faGear} className="testing" size="2x" />
+                <FontAwesomeIcon icon={faGear} className="testing" />
               </div>
               <h4>Settings</h4>
             </button>

@@ -45,12 +45,12 @@
 
 .truck h1, .words h1, .transit h1, .user h1{
     font-family: interReg;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .truck p, .words p, .transit p, .user p{
     font-family: interReg;
-    font-size: 12px;
+    font-size: 10px;
     color: #7A8395;
     margin-top: 5px;
 }
@@ -77,7 +77,8 @@
 }
 
 .user img{
-    width: 50px;
+    width: 35px;
+    height: 35px;
     border-radius: 50px;
 }
 
@@ -92,7 +93,7 @@
 }
 
 .trackset{
-    font-size: 14px;
+    font-size: 10px;
     font-family: InterReg;
     color: #3C3D41;
     background: none;
@@ -101,7 +102,7 @@
 }
 
 .trackset1{
-    font-size: 14px;
+    font-size: 10px;
     font-family: InterReg;
     color: #3C3D41;
     margin-top: 7px;
@@ -114,7 +115,7 @@
 
 .transinner{
     border: 1px solid #C9D1DA;
-    width: 124px;
+    width: 100px;
     height: 33px;
     border-radius: 17px;
     display: flex;
@@ -123,7 +124,7 @@
 }
 
 .transinner h1{
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .transinner div{
@@ -155,13 +156,14 @@
         width: 50%;
     }
     .truck h1, .transit h1, .user h1{
-        font-size: 14px;
-    }
-    .truck p, .words p, .transit p, .user p{
         font-size: 12px;
     }
+    .truck p, .words p, .transit p, .user p{
+        font-size: 10px;
+    }
     .user img{
-        width: 50px;
+        width: 40px;
+        height: 40px;
     }
     
 }

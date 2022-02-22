@@ -54,7 +54,7 @@ const Vehicles = () => {
                 className={styles.innertop}
               >
                 <div className={styles.bell} id="vehhomebell">
-                  <FontAwesomeIcon icon={faBell} size="2x" />
+                  <FontAwesomeIcon icon={faBell} />
                 </div>
                 <span></span>
                 <div className={styles.userpic}>

@@ -104,7 +104,7 @@ const Home = () => {
                 animate="visible"
               >
                 <div className={styles.bell} id="vehhomebell">
-                  <FontAwesomeIcon icon={faBell} size="2x" />
+                  <FontAwesomeIcon icon={faBell} size="1x" />
                 </div>
                 <span></span>
                 <div className={styles.userpic}>

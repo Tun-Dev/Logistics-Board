@@ -17,7 +17,7 @@ const Vehcomp = ({ name, color, action, tracking, tracking2, img }) => {
             icon={faTruck}
             className={styles.truckk}
             flip="horizontal"
-            size="3x"
+            size="2x"
             id="truck"
           />
           <div>
