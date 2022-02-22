@@ -8,9 +8,11 @@ const Midmodals2 = ({ register, count, join, color, img }) => {
       <div className={styles.container} id="midmodcon2">
         <div className={styles.left}>
           <div className={styles.leftinner}>
-            <h4>{register}</h4>
-            <h1>{count}</h1>
-            <p>{join}</p>
+            <div>
+              <h4>{register}</h4>
+              <h1>{count}</h1>
+              <p>{join}</p>
+            </div>
           </div>
         </div>
         <div className={styles.right}>

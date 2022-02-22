@@ -76,13 +76,14 @@
 
 .midwords h2{
     font-family: InterBold;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .midwords p{
     font-family: InterReg;
     margin-top: 10px;
     color: #01133C93;
+    font-size: 10px;
 }
 
 .bottom{

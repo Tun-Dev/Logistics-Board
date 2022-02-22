@@ -76,6 +76,7 @@
 .conMain h4{
     color: #7A8395;
     font-family: InterReg;
+    font-size: 10px;
 }
 .conInternal{
      margin-top: 40px;
@@ -84,6 +85,7 @@
 .conInternal h4{
      color: #7A8395;
      font-family: InterReg;
+     font-size: 10px;
 }
 
 .conMain button, .conInternal button{
@@ -128,7 +130,6 @@ button div{
 
 button h4{
     margin-left: 15px;
-    font-size: 14px;
 }
 
 .links{

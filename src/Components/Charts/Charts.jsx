@@ -125,11 +125,11 @@ const Charts = () => {
       className={styles.chart}
     >
       <div className={styles.words} id="midwords">
-        <div>
+        <div className={styles.shipment}>
           <p>SHIPMENTS</p>
           <h1>60,000</h1>
         </div>
-        <div>
+        <div className={styles.active}>
           <p>ACTIVE VEHICLES</p>
           <h1>237,889</h1>
         </div>

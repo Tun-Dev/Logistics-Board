@@ -85,6 +85,9 @@ export const GlobalStyles = createGlobalStyle`
         color: ${({ theme }) => theme.truckcolor};
         transition: all 1s ease-in
     }
+    #vehcompmenu{
+        color: ${({ theme }) => theme.vehcomph1};
+    }
 
 
     // Midmodal Style
