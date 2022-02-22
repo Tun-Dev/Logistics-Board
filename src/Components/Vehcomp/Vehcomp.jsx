@@ -66,7 +66,7 @@ const Vehcomp = ({ name, color, action, tracking, tracking2, img }) => {
             </button>
           </div>
           <div className={styles.menu} id="vehcompmenu">
-            <FontAwesomeIcon icon={faEllipsisVertical} size="2x" />
+            <FontAwesomeIcon icon={faEllipsisVertical} />
           </div>
         </div>
       </div>

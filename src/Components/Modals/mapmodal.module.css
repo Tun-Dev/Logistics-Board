@@ -65,7 +65,7 @@
 .transit h1,
 .user h1 {
     font-family: interReg;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .truck p,
@@ -73,7 +73,7 @@
 .transit p,
 .user p {
     font-family: interReg;
-    font-size: 12px;
+    font-size: 10px;
     color: #7A8395;
     margin-top: 5px;
 }
@@ -146,16 +146,17 @@
 }
 
 .midleft h1 {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .midleft p {
     margin-top: 5px;
+    font-size: 10px;
 }
 
 .midleft img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin-right: 10px;
 }
 
@@ -222,6 +223,13 @@
         text-align: center;
         margin-bottom: 30px;
         font-family: InterReg;
+    }
+    .top h1 {
+        font-size: 17px;
+    }
+
+    .top p{
+        font-size: 10px;
     }
 
     .middle {

@@ -69,7 +69,7 @@ const TrackModal = ({ show, closeModal }) => {
                 <FontAwesomeIcon
                   icon={faTruck}
                   flip="horizontal"
-                  size="3x"
+                  size="2x"
                   className={styles.truckk}
                   id="truck"
                 />

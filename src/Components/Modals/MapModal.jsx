@@ -83,7 +83,7 @@ const MapModal = ({ show, closeMaps, closeModal }) => {
               icon={faTruck}
               id="truck"
               flip="horizontal"
-              size="3x"
+              size="2x"
             />
             <div>
               <h1>ET-272-KJA</h1>
